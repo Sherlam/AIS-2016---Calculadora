@@ -6,7 +6,7 @@ public class Menu {
 
     public static void main(String []agrs)
     {
-        int op=0;
+        int op=1;
         double n1,n2,s,m,d,r;
         do{
             op=Integer.parseInt(JOptionPane.showInputDialog("nCalculadoran"+"************n"+"[1] SUMARn"+"[2] RESTARn"+"[3] MULTIPLICARn"+"[4] DIVIDIRn"+"[5] SALIRn"+"Ingresa una opcion:"));
