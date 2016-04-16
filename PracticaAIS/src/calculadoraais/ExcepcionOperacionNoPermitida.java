@@ -11,6 +11,7 @@ package calculadoraais;
  */
 public class ExcepcionOperacionNoPermitida extends Exception {
     public ExcepcionOperacionNoPermitida(String msg) {
-        super(msg);
+        System.Out.Println("Conflicto");
+        System.Out.Println(msg);
     }
 }
