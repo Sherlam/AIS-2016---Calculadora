@@ -12,7 +12,7 @@ public class Calculadora extends javax.swing.JFrame {
     public Calculadora() {
         initComponents();
         
-        //Se desahibilitan de inicio los botones que escriban una expresion erronea
+        //Se deshabilitan de inicio los botones que escriban una expresion erronea
         
         Boton_Igual.setEnabled(false);
         Boton_CerrarParentesis.setEnabled(false);
