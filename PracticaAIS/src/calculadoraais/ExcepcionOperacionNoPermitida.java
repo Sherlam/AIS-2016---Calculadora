@@ -5,13 +5,15 @@
  */
 package calculadoraais;
 
+import javax.annotation.processing.SupportedOptions;
+
 /**
  *
  * @author sergio
  */
 public class ExcepcionOperacionNoPermitida extends Exception {
-    public ExcepcionOperacionNoPermitida(String kmsg) {
-        System.out.println("Proyecto");
-        System.out.println("2016");
-    }
+    super(msg);
+    SupportedOptions;
+    
+}
 }
