@@ -10,6 +10,7 @@ package calculadoraais;
  * @author sergio
  */
 public class ExcepcionOperacionNoPermitida extends Exception {
-    public ExcepcionOperacionNoPermitida(String msg) {
+    
+    //esto es un intento de error
     }
 }
