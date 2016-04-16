@@ -322,7 +322,7 @@ public class Calculadora extends javax.swing.JFrame {
 
     }//GEN-LAST:event_TextoPantallaActionPerformed
 
-    private void Boton_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton_7ActionPerformed
+    private void Boton_7ActionPerformed(java.awt.event.ActionEvent evt) {//accion que se realiza al pulsar el boton
 
         //Se habilitan todos los botones al pulsar la tecla '7'
         
@@ -336,7 +336,7 @@ public class Calculadora extends javax.swing.JFrame {
         Boton_Multiplicacion.setEnabled(true);
         Boton_Resta.setEnabled(true);
         Boton_Suma.setEnabled(true);
-        
+        //reinicia el estado de todos los botones
         if ("Inserte exp".equals(TextoPantalla.getText()) || "Expresion erronea".equals(TextoPantalla.getText()) || "Operacion invalida".equals(TextoPantalla.getText())){
             TextoPantalla.setText("");      //Si la pantalla esta vacia o ha habido un error, poner la pantalla en blanco
         }
