@@ -322,7 +322,7 @@ public class Calculadora extends javax.swing.JFrame {
 
     }//GEN-LAST:event_TextoPantallaActionPerformed
 
-    private void Boton_7ActionPerformed(java.awt.event.ActionEvent evt) {//accion que se realiza al pulsar el boton
+    private void Boton_7ActionPerformed(java.awt.event.ActionEvent evt) {
 
         //Se habilitan todos los botones al pulsar la tecla '7'
         
@@ -350,7 +350,7 @@ public class Calculadora extends javax.swing.JFrame {
         if (contador == 0){
             Boton_CerrarParentesis.setEnabled(false);       //Si no hay parentesis abiertos, no permitir poner parentesis cerrados
         }
-    }//GEN-LAST:event_Boton_7ActionPerformed
+    }                                       
 
     private void Boton_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton_8ActionPerformed
         
