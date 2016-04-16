@@ -1,5 +1,5 @@
 
-package proyectocalculadora;
+package calculadoraais;
 
 
 public class ProyectoCalculadora {
