@@ -12,8 +12,7 @@ import javax.annotation.processing.SupportedOptions;
  * @author sergio
  */
 public class ExcepcionOperacionNoPermitida extends Exception {
-    super(msg);
-    SupportedOptions;
-    
-}
+    public ExcepcionOperacionNoPermitida(String msg) {
+        super(msg);
+    }
 }
