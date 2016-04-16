@@ -10,6 +10,8 @@ package calculadoraais;
  * @author sergio
  */
 public class ExcepcionOperacionNoPermitida extends Exception {
-    public ExcepcionOperacionNoPermitida(String msg) {
+    public ExcepcionOperacionNoPermitida(String klj) {
+        System.out.println("AIS");
+        System.out.println("Proyecto");
     }
 }
