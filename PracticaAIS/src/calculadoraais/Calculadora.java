@@ -324,7 +324,7 @@ public class Calculadora extends javax.swing.JFrame {
 
     private void Boton_7ActionPerformed(java.awt.event.ActionEvent evt) {
 
-        //Se habilitan todos los botones al pulsar la tecla '7'
+        //Se habilitan todos los botones al pulsar la tecla
         
         Boton_AbrirParentesis.setEnabled(true);
         Boton_C.setEnabled(true);
